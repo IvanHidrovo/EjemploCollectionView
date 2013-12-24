@@ -23,6 +23,11 @@
 		E3A6A5C3184CCD1400BFBB36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3A6A59E184CCD1300BFBB36 /* Foundation.framework */; };
 		E3A6A5CB184CCD1400BFBB36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3A6A5C9184CCD1400BFBB36 /* InfoPlist.strings */; };
 		E3A6A5CE184CCD1400BFBB36 /* EjemploCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A6A5CD184CCD1400BFBB36 /* EjemploCollectionViewTests.m */; };
+		E3A6A5D9184CCDFB00BFBB36 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A6A5D8184CCDFB00BFBB36 /* CollectionViewController.m */; };
+		E3A6A5E1184CCF8D00BFBB36 /* Celda.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A6A5E0184CCF8D00BFBB36 /* Celda.m */; };
+		E3A6A5E4184CD44900BFBB36 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A6A5E3184CD44900BFBB36 /* login.png */; };
+		E3A6A5E7184CD47F00BFBB36 /* avion.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A6A5E5184CD47F00BFBB36 /* avion.png */; };
+		E3A6A5E8184CD47F00BFBB36 /* noti.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A6A5E6184CD47F00BFBB36 /* noti.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +63,13 @@
 		E3A6A5CA184CCD1400BFBB36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E3A6A5CC184CCD1400BFBB36 /* EjemploCollectionViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EjemploCollectionViewTests.h; sourceTree = "<group>"; };
 		E3A6A5CD184CCD1400BFBB36 /* EjemploCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EjemploCollectionViewTests.m; sourceTree = "<group>"; };
+		E3A6A5D7184CCDFB00BFBB36 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		E3A6A5D8184CCDFB00BFBB36 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		E3A6A5DF184CCF8D00BFBB36 /* Celda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Celda.h; sourceTree = "<group>"; };
+		E3A6A5E0184CCF8D00BFBB36 /* Celda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Celda.m; sourceTree = "<group>"; };
+		E3A6A5E3184CD44900BFBB36 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		E3A6A5E5184CD47F00BFBB36 /* avion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avion.png; sourceTree = "<group>"; };
+		E3A6A5E6184CD47F00BFBB36 /* noti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noti.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +99,7 @@
 		E3A6A590184CCD1300BFBB36 = {
 			isa = PBXGroup;
 			children = (
+				E3A6A5E2184CCF9500BFBB36 /* celda */,
 				E3A6A5A2184CCD1300BFBB36 /* EjemploCollectionView */,
 				E3A6A5C6184CCD1400BFBB36 /* EjemploCollectionViewTests */,
 				E3A6A59B184CCD1300BFBB36 /* Frameworks */,
@@ -120,6 +133,7 @@
 				E3A6A5AB184CCD1400BFBB36 /* AppDelegate.h */,
 				E3A6A5AC184CCD1400BFBB36 /* AppDelegate.m */,
 				E3A6A5B4184CCD1400BFBB36 /* MainStoryboard.storyboard */,
+				E3A6A5DA184CCE0600BFBB36 /* coleccion */,
 				E3A6A5B7184CCD1400BFBB36 /* ViewController.h */,
 				E3A6A5B8184CCD1400BFBB36 /* ViewController.m */,
 				E3A6A5A3184CCD1400BFBB36 /* Supporting Files */,
@@ -130,6 +144,9 @@
 		E3A6A5A3184CCD1400BFBB36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E3A6A5E5184CD47F00BFBB36 /* avion.png */,
+				E3A6A5E6184CD47F00BFBB36 /* noti.png */,
+				E3A6A5E3184CD44900BFBB36 /* login.png */,
 				E3A6A5A4184CCD1400BFBB36 /* EjemploCollectionView-Info.plist */,
 				E3A6A5A5184CCD1400BFBB36 /* InfoPlist.strings */,
 				E3A6A5A8184CCD1400BFBB36 /* main.m */,
@@ -158,6 +175,24 @@
 				E3A6A5C9184CCD1400BFBB36 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3A6A5DA184CCE0600BFBB36 /* coleccion */ = {
+			isa = PBXGroup;
+			children = (
+				E3A6A5D7184CCDFB00BFBB36 /* CollectionViewController.h */,
+				E3A6A5D8184CCDFB00BFBB36 /* CollectionViewController.m */,
+			);
+			name = coleccion;
+			sourceTree = "<group>";
+		};
+		E3A6A5E2184CCF9500BFBB36 /* celda */ = {
+			isa = PBXGroup;
+			children = (
+				E3A6A5DF184CCF8D00BFBB36 /* Celda.h */,
+				E3A6A5E0184CCF8D00BFBB36 /* Celda.m */,
+			);
+			name = celda;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +271,9 @@
 				E3A6A5B1184CCD1400BFBB36 /* Default@2x.png in Resources */,
 				E3A6A5B3184CCD1400BFBB36 /* Default-568h@2x.png in Resources */,
 				E3A6A5B6184CCD1400BFBB36 /* MainStoryboard.storyboard in Resources */,
+				E3A6A5E4184CD44900BFBB36 /* login.png in Resources */,
+				E3A6A5E7184CD47F00BFBB36 /* avion.png in Resources */,
+				E3A6A5E8184CD47F00BFBB36 /* noti.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +311,8 @@
 				E3A6A5A9184CCD1400BFBB36 /* main.m in Sources */,
 				E3A6A5AD184CCD1400BFBB36 /* AppDelegate.m in Sources */,
 				E3A6A5B9184CCD1400BFBB36 /* ViewController.m in Sources */,
+				E3A6A5D9184CCDFB00BFBB36 /* CollectionViewController.m in Sources */,
+				E3A6A5E1184CCF8D00BFBB36 /* Celda.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
