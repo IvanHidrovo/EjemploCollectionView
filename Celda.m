@@ -27,6 +27,7 @@
 - (void)drawRect:(CGRect)rect
 {
     // Drawing code
+	// draw table
 }
 */
 
